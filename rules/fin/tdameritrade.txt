@@ -1,17 +1,3 @@
-{
-  "description" : "",
-  "name" : "Safari",
-  "rules" : [
-    {
-      "action" : "deny",
-      "creationDate" : 1565831281.6080341,
-      "modificationDate" : 1565831281.6080341,
-      "owner" : "me",
-      "ports" : "443",
-      "process" : "\/System\/Library\/PrivateFrameworks\/SafariSafeBrowsing.framework\/Versions\/A\/com.apple.Safari.SafeBrowsing.Service",
-      "protocol" : "tcp",
-      "remote-hosts" : "safebrowsing.googleapis.com"
-    },
     {
       "action" : "deny",
       "creationDate" : 1584428744.2295299,
@@ -331,5 +317,3 @@
       "protocol" : "tcp",
       "remote-hosts" : "secure.quantserve.com"
     }
-  ]
-}
